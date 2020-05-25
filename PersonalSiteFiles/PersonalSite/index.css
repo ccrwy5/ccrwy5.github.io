@@ -1,0 +1,201 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#welcome{
+    background-image: url(Images/stock2.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+#welcomeContainer{
+    padding: 140px 0;
+}
+
+#welcomeText{
+    font-family: "Gill Sans";
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+#subWelcomeText{
+    font-family: "Gill Sans";
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+#welcomeButton{
+    border-radius: 60px;     
+    font-size: 26px;
+    font-family: "Gill Sans";
+
+}
+
+
+
+.navbar, navbar-inverse{
+    font-family: "Gill Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;    
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+
+}
+
+.activeTab{
+    border-bottom: 3px solid #f4511e;
+}
+
+/*.navbar li { color: #000 } */
+
+.brand{
+    font-family: "Gill Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;    
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/*
+a:hover { 
+border-bottom-style: solid; 
+color: black; 
+}
+*/
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.bioHeader{
+    font-family: "Gill Sans";
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #f4511e;
+}
+
+.bioBody{
+    font-family: "Gill Sans";
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 16px;
+
+}
+
+.signature{
+    font-family: "Brush Script MT";
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.techStack{
+    background-color: #f4511e;
+}
+
+.techStack-header{
+    font-family: "Gill Sans";
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.techStack-subheader{
+    font-family: "Gill Sans";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+footer {
+    background-color: #555;
+    color: white;
+    font-size: 20px;
+    height: 10vh;
+}
+
+.footerLabel{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.footerLinks{
+    text-align: center;
+
+    
+}
+
+

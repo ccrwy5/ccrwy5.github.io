@@ -1,0 +1,205 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1000px}
+
+/* Set gray background color and 100% height */
+/*
+.sidenav {
+background-color: #f1f1f1;
+height: 225%;
+width: 25%;
+margin-right: 20px;
+text-align: center;
+
+}
+*/
+
+
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+
+@media screen and (max-device-width: 480px) {
+    .sidenav {
+        background-color: #f1f1f1;
+        text-align: center;
+        margin-right: 20px;
+        height: 100%;
+        width: 15%;
+    }
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    .sidenav {
+        background-color: #f1f1f1;
+        height: 100%;
+        width: 15%;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .sidenav {
+        background-color: #f1f1f1;
+        height: 100%;
+        width: 20%;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-device-width: 1025px)  {
+    .sidenav {
+        background-color: #f1f1f1;
+        height: 225%;
+        width: 20%;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
+
+
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.navbar, navbar-inverse{
+    font-family: "Gill Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;    
+    opacity: 0.9;
+    color: white;
+    font-weight: bold;
+
+}
+
+.activeTab{
+    border-bottom: 3px solid #f4511e;
+}
+
+.brand{
+    font-family: "Gill Sans";
+    font-size: 30px;
+    margin-bottom: 0px;
+    border-radius: 0px;    
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    color: white;
+}
+
+.clear { 
+    clear: both;
+}
+
+#page-wrap {
+    width: 790px; 
+    margin: 40px auto 60px;
+}
+
+#pic { 
+    float: right; 
+    margin: -30px 0 0 0; 
+}
+
+h1 { 
+    margin: 0 0 16px 0; 
+    padding: 0 0 16px 0; 
+    font-size: 42px; 
+    font-weight: bold; 
+    /*    letter-spacing: -2px; */
+    border-bottom: 1px solid #999; 
+}
+
+h2 { 
+    font-size: 20px; 
+    margin: 0 0 6px 0; 
+    position: relative; 
+}
+
+h2 span { 
+    position: absolute; 
+    bottom: 0; right: 0; 
+    font-style: italic; 
+    font-family: Georgia, Serif; 
+    font-size: 16px; color: #999; 
+    font-weight: normal; 
+}
+
+p { 
+    margin: 0 0 16px 0;
+}
+
+a { 
+    color: #999; 
+    text-decoration: none; 
+    /*    border-bottom: 1px dotted #999;*/
+}
+
+/*
+a:hover { 
+border-bottom-style: solid; 
+color: black; 
+}
+*/
+
+ul { 
+    margin: 0 0 32px 17px;
+}
+
+#objective { 
+    width: 500px; 
+    float: left;
+}
+
+#objective p{
+    font-family: Georgia, Serif; 
+    font-style: italic; 
+    color: #666; 
+}
+
+dt { 
+    font-style: italic; 
+    font-weight: bold; 
+    font-size: 18px; 
+    text-align: right; 
+    padding: 0 26px 0 0; 
+    width: 150px; float: left; 
+    height: 100px; 
+    border-right: 1px solid #999;  
+}
+
+dd { 
+    width: 600px;
+    float: right;
+}
+
+dd.clear { 
+    float: none; 
+    margin: 0; 
+    height: 15px; 
+}
+
+/*</style>*/
+
+a:link {
+    text-decoration: none;
+}
+
+.well{
+    margin-left: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
